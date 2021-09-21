@@ -22,7 +22,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="Mild Hot Sauce"
               name="toppings"
-              checked={props.toppings.includes("Mild Hot Sauce")}
+              // checked={props.toppings.includes("Mild Hot Sauce")}
               onChange={props.handleChange}
             />
             <img src={mild} height="100px" width="100px" alt="mild hot sauce" />
@@ -37,7 +37,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="Medium Hot Sauce"
               name="toppings"
-              checked={props.toppings.includes("Medium Hot Sauce")}
+              // checked={props.toppings.includes("Medium Hot Sauce")}
               onChange={props.handleChange}
             />
             <img
@@ -57,7 +57,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="HOT Hot Sauce"
               name="toppings"
-              checked={props.toppings.includes("HOT Hot Sauce")}
+              // checked={props.toppings.includes("HOT Hot Sauce")}
               onChange={props.handleChange}
             />
             <img src={hot} height="100px" width="100px" alt="hot sauce" />
@@ -72,7 +72,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="Corn Salsa"
               name="toppings"
-              checked={props.toppings.includes("Corn Salsa")}
+              // checked={props.toppings.includes("Corn Salsa")}
               onChange={props.handleChange}
             />
             <img
@@ -92,7 +92,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="Sour Cream"
               name="toppings"
-              checked={props.toppings.includes("Sour Cream")}
+              // checked={props.toppings.includes("Sour Cream")}
               onChange={props.handleChange}
             />
             <img
@@ -112,7 +112,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="Lettuce"
               name="toppings"
-              checked={props.toppings.includes("Lettuce")}
+              // checked={props.toppings.includes("Lettuce")}
               onChange={props.handleChange}
             />
             <img src={lettuce} height="100px" width="100px" alt="lettuce" />
@@ -127,7 +127,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="Guac"
               name="toppings"
-              checked={props.toppings.includes("Guac")}
+              // checked={props.toppings.includes("Guac")}
               onChange={props.handleChange}
             />
             <img src={guac} height="100px" width="100px" alt="guacamole" />
@@ -142,7 +142,7 @@ function ToppingForm(props) {
               type="checkbox"
               value="Cheese"
               name="toppings"
-              checked={props.toppings.includes("Cheese")}
+              // checked={props.toppings.includes("Cheese")}
               onChange={props.handleChange}
             />
             <img src={cheese} height="100px" width="100px" alt="cheese" />

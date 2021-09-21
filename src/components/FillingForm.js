@@ -19,7 +19,7 @@ function FillingForm(props) {
               type="checkbox"
               value="White Rice"
               name="fillings"
-              checked={props.fillings.includes("White Rice")}
+              // checked={props.fillings.includes("White Rice")}
               onChange={props.handleChange}
             />
             <img
@@ -39,7 +39,7 @@ function FillingForm(props) {
               type="checkbox"
               value="Brown Rice"
               name="fillings"
-              checked={props.fillings.includes("Brown Rice")}
+              // checked={props.fillings.includes("Brown Rice")}
               onChange={props.handleChange}
             />
             <img
@@ -59,7 +59,7 @@ function FillingForm(props) {
               type="checkbox"
               value="Black Beans"
               name="fillings"
-              checked={props.fillings.includes("Black Beans")}
+              // checked={props.fillings.includes("Black Beans")}
               onChange={props.handleChange}
             />
             <img
@@ -79,7 +79,7 @@ function FillingForm(props) {
               type="checkbox"
               value="Pinto Beans"
               name="fillings"
-              checked={props.fillings.includes("Pinto Beans")}
+              // checked={props.fillings.includes("Pinto Beans")}
               onChange={props.handleChange}
             />
             <img
@@ -99,7 +99,7 @@ function FillingForm(props) {
               type="checkbox"
               value="Fajita Veggies"
               name="fillings"
-              checked={props.fillings.includes("Fajita Veggies")}
+              // checked={props.fillings.includes("Fajita Veggies")}
               onChange={props.handleChange}
             />
             <img
